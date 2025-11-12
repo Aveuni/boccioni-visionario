@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogo
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title>Ritratto del pittore Umberto Boccioni</dc:title>
+<dc:creator>Sommariva, Emilio</dc:creator>
+<dc:subject>Ritratto</dc:subject>
+<dc:subject>Umberto Boccioni</dc:subject>
+<dc:subject>Fotografia</dc:subject>
+<dc:subject>Bianco e nero</dc:subject>
+<dc:subject>Figura umana</dc:subject>
+<dc:subject>1900</dc:subject>
+<dc:subject>Ritratto maschile</dc:subject>
+<dc:subject>Beni librari</dc:subject>
+<dc:description>Fotografia ritratto dell'artista Umberto Boccioni in formato digitale.</dc:description>
+<dc:publisher>Biblioteca Nazionale Braidense</dc:publisher>
+<dc:contributor>CulturaItalia</dc:contributor>
+<dc:date>2021</dc:date>
+<dc:type>Image</dc:type>
+<dc:format>XML</dc:format>
+<dc:identifier>https://www.europeana.eu/it/item/446/2y010_0008398</dc:identifier>
+<dc:source>Sommariva, Emilio. Ritratto del pittore Umberto Boccioni. Milano: Biblitoeca Nazionale Braidense, [1914]. CulturaItalia. 2y010-0008398</dc:source>
+<dc:language>Ita</dc:language>
+<dc:relation>Ente: Biblioteca nazionale Braidense - Milano; Progetto: http://www.braidense.it; Collezione: Archivio fotografico Emilio Sommariva (1883 - 1956); completezza della digitalizzaizone: digitalizzazione completa</dc:relation>
+<dc:coverage>Milano: Biblioteca Nazionale Braidense, 2021</dc:coverage>
+<dc:rights>Rights="http://rightsstatements.org/vocab/NoC-OKLR/1.0/"</dc:rights>
+
+</catalogo>

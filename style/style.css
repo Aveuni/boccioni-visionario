@@ -1,0 +1,649 @@
+/* FONTS */
+/* normal */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+/* BASICS */
+
+* {
+  box-sizing: border-box;
+  font-family: "Arial Black", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* html */
+html {
+  height: 100%;
+}
+
+/* body*/
+body {
+  color: #000000;
+  font-size: 14px;
+  margin: 0;
+  height: 100%;
+}
+
+
+
+/*------------------INIZIO FIXED MENU-----------------------*/
+/* navigation bar */
+.navbar {
+  background-color: #000000;
+  overflow: hidden;
+  position: fixed;
+  top:0;
+  width:100%;/ *Full width*/
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+   text-align: center; 
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+.navbar .hover {
+    background-color: #000000;
+  color: #000000;
+}
+
+.navbar a:hover {
+  background-color: #ffcc66;
+  color: black;
+}
+
+.main {
+    margin-top:50px; 
+}
+
+
+/*-----------------------FINE FIXED MENU----------------------*/
+
+
+
+
+/*------------------ a ------------------------*/
+/* NB: Colori delle parole cliccabili */
+a {
+  color: #4e6c7e;
+}
+
+a:hover {
+  color: #30434f;
+}
+
+/*FINE a --------------------------------*/
+
+
+/* DIV Sito Web----------------------------*/
+
+/* background */
+.bg-white {
+  background-color: #ffffff;
+}
+
+
+.bg-black {
+  background-color: #000000;
+}
+
+
+.bg-yellow {
+  background-color: #ffcc66;
+}
+
+.bg-blue {
+  background-color: #9f9fdf;
+}
+
+/* colors */
+.txt-light {
+  color: #ffffff;
+}
+
+/* border */
+.border-section {
+  padding: 12px 12px;
+  border: 1px solid #ccc;
+}
+
+/* padding */
+.pd-12 {
+  margin: 12px 0;
+  padding: 12px;
+}
+
+
+/* DIV Sito Web----------------------------*/
+
+
+/* LAYOUT------------------------------------------------- */
+
+/* header */
+.header {
+  background-color: #ffffff;
+  padding: 60px;
+  text-align: center;
+}
+
+
+
+
+/*TRANSPARENT IMG TEXT----------------------------------------*/
+
+
+.container {
+  position: relative;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+
+.container .content {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  width: 50%; 
+  padding: 50px;
+}
+
+
+/*FINE TRANSPARENT IMG TEXT----------------------------------------*/
+
+
+
+/*FOOTER---------------------------------------------------*/
+/* footer */
+.footer {
+  background-color: #000000;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* footer */
+.copyright {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+
+/*FINE FOOTER---------------------------------------------------*/
+
+
+
+/*PROVA BLOCK BUTTON-----------------------------------*/
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #000000;
+  color: white;
+  padding: 20px 28px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block:hover {
+  background-color: #ff0000;
+  color: fffff;
+}
+
+
+/*FINE BLOCK BUTTON------------------------------*/
+
+
+
+
+/*inizio ROW INDEX,
+cioè: La parte di testi, colonne e paragrafi
+che si trovano SOLO NELL'INDEX------------------------------------ */
+/* row */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* one column */
+.column {
+  float: left;
+  padding: 5%;
+  width: 100%;
+}
+
+/* two columns */
+/* left column */
+.leftcolumn {
+  float: left;
+  padding: 15px;
+  width: 20%;
+}
+
+/* right column */
+.rightcolumn {
+  float: left;
+  padding: 15px;
+  width: 80%;
+}
+
+/* equal columns */
+.equalcolumn {
+  float: left;
+  padding: 15px;
+  width: 50%;
+}
+
+/* responsive column */
+@media screen and (max-width: 600px) {
+  /* columns */
+  .column,
+  .leftcolumn,
+  .rightcolumn,
+  .equalcolumn {
+    width: 100%;
+  }
+}
+
+
+/*FINE ROW INDEX,------------------------------------ */
+
+
+/*IMMAGINE BOCCIONI RITRATTO BIO----------------------------*/
+
+
+#Boccioniportrait {
+  float: right;
+  margin-left: 10px;
+  width: 1440px;
+  height: 600px;;
+}
+
+/*--- FINE IMMAGINE BOCCIONI RITRATTO BIO---------------*/
+
+
+
+
+/* INIZIO BUTTON GROUP -------------------------------------------*/
+
+.btn-group button {
+  background-color: #000000; /* Green background */
+  border: 1px white; /* White border */
+  color: white; /* White text */
+  padding: 20px 30px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #ff0000;
+}
+
+
+
+/* FINE BUTTON GROUP -------------------------------------------*/
+
+
+
+/* COMPONENTS */
+/* img */
+/* img responsive */
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* img center */
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.img-item {
+  width: 50%;
+  height: auto;
+}
+
+/* button */
+/* BUTTON X CARD-------------------------------------------------- */
+.btn {
+  display: block;
+  border: none;
+  color: white;
+  margin-top: 15px;
+  padding: 15px 30px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.default {
+  background-color: #000000;
+  color: white;
+}
+
+.default:hover {
+  background: #ff0000;
+}
+
+/*FINE BUTTON X CARD -----------------------------------------------*/
+
+/* search bar */
+form.example {
+  margin: auto;
+  max-width: 300px;
+}
+
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 13px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  color: white;
+  font-size: 13px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #30434f;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* tabs */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* pagination */
+.pagination {
+  font-size: 13px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.pagination a.active {
+  background-color: #30434f;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+/* INIZIO CARDS ---------------------------------------------- */
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.card a {
+  margin-bottom: 16px;
+}
+
+.card .img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+/* img disegni */
+.card .img-disegni-1 {
+  background-image: url("../img/opere/IMG-Ritrattodellasorellaintentanellavoroamaglia-BOCCIONI.jpg");
+}
+
+.card .img-disegni-2 {
+  background-image: url("../img/opere/IMG-Autoritratto1909-BOCCIONI.jpg");
+}
+
+.card .img-disegni-3 {
+  background-image: url("../img/opere/IMG-RitrattosignoraMaffi1910-BOCCIONI.jpg");
+}
+
+.card .img-disegni-4 {
+  background-image: url("../img/opere/IMG-Controluce-BOCCIONI.jpg");
+}
+
+.card .img-disegni-5 {
+  background-image: url("../img/opere/IMG-Studixdinamismodiunciclista-1913-BOCCIONI.jpg");
+}
+
+.card .img-disegni-6 {
+  background-image: url("../img/opere/IMG-Studixdinamismodiunciclista2-1913-BOCCIONI.jpg");
+}
+
+.card .img-disegni-7 {
+  background-image: url("../img/opere/IMG-Vogliofissareleformeumaneinmovimento-1913-BOCCIONI.jpg");
+}
+
+.card .img-disegni-8 {
+  background-image: url("../img/opere/IMG-Vogliosintetizleformeunichedelcontinellospazio-BOCCIONI.jpg");
+}
+
+
+
+/* ERA: img periodo blu */
+/* img pitture */
+/* CARD DI RISSA IN GALLERIA------------------------------------ */
+.card .img-pitture-1 {
+  background-image: url("../img/opere/IMG-Rissaingalleria-BOCCIONI.jpg");
+}
+
+/* FINE CARD DI RISSA IN GALLERIA------------------------------------ */
+
+
+
+.card .img-pitture-2 {
+  background-image: url("../img/opere/IMG-Officineportaromana-BOCCIONI.jpg");
+}
+
+.card .img-pitture-3 {
+  background-image: url("../img/opere/IMG-Lacittachesale-BOCCIONI.jpg");
+}
+
+
+.card .img-pitture-4 {
+  background-image: url("../img/opere/IMG-StatidanimoAddii- BOCCIONI.jpeg");
+}
+
+
+.card .img-pitture-5 {
+  background-image: url("../img/opere/IMG-Statidanimo-quellichevanno-BOCCIONI.jpg");
+}
+
+
+.card .img-pitture-6 {
+  background-image: url("../img/opere/IMG-Visionisimultanee-BOCCIONI.jpg");
+}
+
+
+.card .img-pitture-7 {
+  background-image: url("../img/opere/IMG-Elasticita-BOCCIONI.jpg");
+}
+
+
+.card .img-pitture-8 {
+  background-image: url("../img/opere/IMG-Materia-BOCCIONI.jpg");
+}
+
+
+
+
+/* FINE CARDS ---------------------------------------------- */
+
+
+
+
+
+
+
+
+/*ACCORDION--------------------------------------------------- */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.panel a {
+  margin-bottom: 16px;
+  text-align: center;
+  width: 20%;
+}
+
+.accordion:after {
+  content: "\02795";
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.accordion.active:after {
+  content: "\2796";
+}
+
+.accordion span,
+.tab span,
+.tabcontent span,
+.metadata span {
+  color: #777;
+}
+
+/*Devo cancellare questa roba? Era della Hero Img????*/ 
+.hero-text p {
+  font-size: 20px;
+}
+/*FINE Devo cancellare questa roba? Era della Hero Img????*/
+
+/* breadcrumbs */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #f1f1f1;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 15px;
+}
+
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color: #4e6c7e;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #30434f;
+  text-decoration: underline;
+}
+
+
+
+/*FINE *ACCORDION--------------------------------------------------- */

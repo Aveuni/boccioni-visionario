@@ -1,0 +1,238 @@
+<!-- DI PARTENZA-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<!--TEI HEADER-->
+<teiHeader>
+<fileDesc>
+<!--TITLE STATEMENT-->
+<titleStmt>
+<title>Manifesti e scritti vari</title>
+<author xml:id="FPM">Filippo Tommaso Marinetti</author>
+<editor role="editor" xml:id="LDM">Luciano De Maria</editor>
+<!--RESPSTMT-->
+<respStmt>
+	<name>Luciano De Maria </name>
+	<resp>Curatela</resp>
+</respStmt>
+<respStmt>
+	<name xml:id="CR">Catia Righi</name>
+	<resp>Digitalizzazione</resp>
+	<resp>Impaginazione</resp>
+	<resp>Pubblicazione</resp>
+	<resp>caria_righi@tin.it</resp>
+</respStmt>
+<respStmt>	
+	<name xml:id="PO">Paolo Oliva</name>
+	<resp>Revisione</resp>
+	<resp>paulinduliva@yahoo.it</resp>
+</respStmt>
+<respStmt>
+	<name xml:id="MSC">Mario Sciubba Caniglia</name>
+	<resp>Revisione</resp>
+	<resp>msciubbacaniglia@alice.it</resp>
+</respStmt>
+</titleStmt>
+<!--EDITION STATEMENT-->
+<editionStmt xmlns="http://www.tei-c.org/ns/1.0">
+	<edition n="1.0">
+	<date when="2015-01-08">8 Gennaio 2015</date>
+	</edition>
+</editionStmt>
+<!--EXTENT-->
+<extent xmlns="http://www.tei-c.org/ns/1.0">>
+About 887 kbytes, 302 pages of source material
+</extent>
+<!--PUBLICATION STATEMENT-->
+<publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+	<authority> Liber Liber </authority>
+	<publisher><ref target="https://e-text.it/">E-text </ref></publisher>
+	<distributor><ref target="https://liberliber.it/">Liber Liber</ref></distributor>
+	<idno> No ISBN</idno>
+	<availability status="free">
+		<licence>Pubblicato e distribuito secondo <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.it">Licenza Creative Commons </ref>specificata su Liber Liber
+		</licence>
+		<p>Risorsa digitale prodotta attraverso il Progetto Manuzio di Liber Liber.</p>
+		<p>Indice di affidabilità:1, media</p>
+	</availability>
+	<availability status="free">
+		<p>Avaiable in the public domain</p>
+	</availability>
+	<date when="2015-01-08">8 Gennaio 2015</date>
+</publicationStmt>
+<!--SOURCE DESK-->
+<sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+	<bibl>
+	<title>Teoria e invenzione futurista</title>di
+	<author>Filippo Tommaso Marinetti</author>
+	<pubPlace>Milano</pubPlace>:<publisher>Arnoldo Mondadori Editore</publisher><date when="1968">1968</date>. 
+	<extent>CXXV</extent>, <extent>1121 p.</extent>, <extent>21 cm. </extent>; 
+	Introduzione, testo e note a cura di <editor role="introduction, text and notes">Luciano de Maria</editor>; Prefazione di <editor 
+	role="preface">Aldo Palazzeschi</editor>.
+	</bibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<!--FINE TEI HEADER-->
+<text xmlns="http://www.tei-c.org/ns/1.0">
+	<!-- NB: Ho messo una Div di apertura Capitoli-->
+	<body>
+	<head>
+	<name xml:id="FTM">F.T.Marinetti</name>
+	<title type="mainTitle">Fondazione e Manifesto del Futurismo </title>
+	<title type="subTitle">Pubblicato dal «Figaro» di Parigi il <date when="1909-02-20">  20 febbraio 1909</date></title>
+	</head>
+	<div type="section" n="1">
+	<p>Avevamo vegliato tutta la notte – i miei amici ed io –sotto lampade di moschea dalle cupole di ottone
+	traforato, stellate come le nostre anime, perché come
+	queste irradiate dal chiuso fulgòre di un cuore elettrico.
+	Avevamo lungamente calpestata su opulenti tappeti
+	orientali la nostra atavica accidia, discutendo davanti ai confini estremi della logica ed annerendo molta carta di frenetiche scritture.</p>
+	<p>Un immenso orgoglio gonfiava i nostri petti, poiché
+	ci sentivamo soli, in quell’ora, ad esser desti e ritti, come fari superbi o come sentinelle avanzate, di fronte all’esercito delle stelle nemiche, occhieggianti dai loro celesti accampamenti. Soli coi fuochisti che s’agitano davanti ai forni infernali delle grandi navi, soli coi neri fantasmi che frugano nelle pance arroventate delle locomotive lanciate a pazza corsa, soli cogli ubriachi annaspanti, con un incerto batter d’ali, lungo i muri della città.</p>
+	<pb n="8"/>
+	<p>Sussultammo ad un tratto, all’udire il rumore
+	formidabile degli enormi tramvai a due piani, che
+	passano sobbalzando, risplendenti di luci multicolori,
+	come i villaggi in festa che il <placeName>Po</placeName> straripato squassa e sràdica d’improvviso, per trascinarli fino al mare, sulle cascate e attraverso i gorghi di un diluvio.</p>
+	<p>Poi il silenzio divenne più cupo. Ma mentre
+	ascoltavamo l’estenuato borbottìo, di preghiere del
+	vecchio canale e lo scricchiolar dell’ossa dei palazzi
+	moribondi sulle loro barbe di umida verdura, noi
+	udimmo subitamente ruggire sotto le finestre gli
+	automobili famelici.</p>
+	<p><said>— Andiamo,</said> diss’io;<said> andiamo, <emph>amici</emph>! <emph>Partiamo</emph>! </said>
+	Finalmente, la mitologia e l’ideale mistico sono
+	superati. Noi stiamo per assistere alla nascita del
+	Centauro e presto vedremo volare <emph>i primi Angeli</emph>!...
+	Bisognerà scuotere le porte della vita per provarne i
+	cardini e i <emph>chiavistelli</emph>!...<said> <emph>Partiamo</emph>!</said> Ecco, sulla terra, la primissima <emph>aurora</emph>! Non v’è cosa che agguagli lo splendore della rossa spada del sole che schermeggia per la prima volta nelle <emph>nostre tenebre millenarie</emph>!... Ci avvicinammo alle tre belve sbuffanti, per palparne amorosamente i torridi petti. Io mi stesi sulla mia macchina come un cadavere nella bara, ma subito risuscitai sotto il volante, lama di ghigliottina che minacciava il mio stomaco.</p>
+	<p>La furente scopa della pazzia ci strappò a noi stessi e ci cacciò attraverso le vie, scoscese e profonde come letti di torrenti. Qua e là una lampada malata, dietro i</p>
+	
+	<pb n="9"/>
+	
+	<p>	vetri d’una finestra, c’insegnava a disprezzare la fallace matematica dei nostri occhi perituri.</p>
+	<p>Io gridai:<said> — Il fiuto, il fiuto solo, <emph>basta alle belve</emph>!</said></p>
+	<p>E noi, come giovani leoni, inseguivamo la Morte, dal pelame nero maculato di pallide croci, che correva via pel vasto cielo violaceo, vivo e palpitante.</p>
+	<p>Eppure non avevamo un’Amante ideale che ergesse
+	fino alle nuvole la sua sublime figura, né una Regina
+	crudele a cui offrire le nostre salme, contorte a guisa di <emph>anelli bisantini</emph>! Nulla, per voler morire, se non il desiderio di liberarci finalmente dal <emph>nostro coraggio troppo pesante</emph>! </p>
+	<p>E noi correvamo schiacciando su le soglie delle case i cani da guardia che si arrotondavano, sotto i nostri pneumatici scottanti, come solini sotto il ferro da stirare. La Morte, addomesticata, mi sorpassava ad ogni svolto, per porgermi la zampa con grazia, e a quando a quando si stendeva a terra con un rumore di mascelle stridenti, mandandomi, da ogni pozzanghera, sguardi vellutati e carezzevoli. </p>
+	<p><said>— Usciamo dalla saggezza come da un orribile
+	guscio, e gettiamoci, come frutti pimentati d’orgoglio, entro la bocca immensa e tôrta del <emph>vento</emph>!... Diamoci in pasto all’Ignoto, non già per disperazione, ma soltanto per colmare i profondi pozzi dell’<emph>Assurdo</emph>!</said></p>
+	<p>Avevo appena pronunziate queste parole, quando
+	girai bruscamente su me stesso, con la stessa ebrietà
+	folle dei cani che voglion mordersi la coda, ed ecco ad un tratto venirmi incontro due ciclisti, che mi diedero</p>
+
+	<pb n="10"/>
+	
+	<p>torto, titubando davanti a me come due ragionamenti, entrambi persuasivi e nondimeno contradittorii. Il loro stupido dilemma discuteva sul mio terreno... <said><emph>Che noia</emph>! <emph>Auff</emph>!... </said>Tagliai corto, e, pel disgusto, mi scaraventai colle ruote all’aria in un fossato... </p>
+	<p><emph>Oh</emph>! materno fossato, quasi pieno di <emph>un’acqua
+	fangosa</emph>! <emph>Bel fossato d’officina</emph>! Io gustai avidamente la tua melma fortificante, che mi ricordò la santa
+	mammella nera della mia <emph>nutrice sudanese</emph>... Quando mi
+	sollevai – cencio sozzo e puzzolente – di sotto la
+	macchina capovolta, io mi sentii attraversare il cuore, deliziosamente, dal ferro arroventato della <emph>gioia</emph>!</p>
+	<p>Una folla di pescatori armati di lenza e di naturalisti podagrosi tumultuava già intorno al prodigio. Con cura paziente e meticolosa, quella gente dispose alte armature ed enormi reti di ferro per pescare il mio automobile, simile ad un gran pescecane arenato. La macchina emerse lentamente dal fosso, abbandonando nel fondo, come squame, la sua pesante carrozzeria di buon senso e le sue morbide imbottiture di comodità.</p>
+	<p>Credevano che fosse morto, il mio bel pescecane, ma
+	una mia carezza bastò a rianimarlo, ed eccolo
+	risuscitato, eccolo in corsa, di nuovo, sulle sue <emph>pinne possenti</emph>!</p>
+	<p>Allora, col volto coperto della buona melma delle
+	officine – impasto di scorie metalliche, di sudori inutili, di fuliggini celesti – noi, contusi e fasciate le braccia ma impavidi, dettammo le nostre prime volontà a tutti gli uomini <emph rendition="#italic">vivi</emph> della terra: </p>
+	</div>
+
+	<pb n="11"/>
+
+	<div type="section" n="2">
+	<head><emph rendition="#italic">Manifesto del <term>Futurismo</term></emph></head>
+	<list rend="numbered">
+		<item n="1">1. Noi vogliamo cantare l’amor del pericolo, l’abitudine all’energia e alla temerità.</item>
+		<item n="2">2. Il coraggio, l’audacia, la ribellione, saranno elementi essenziali della nostra poesia.</item>
+		<item n="3">3. La letteratura esaltò fino ad oggi l’immobilità pensosa, l’estasi e il sonno. Noi vogliamo esaltare il movimento aggressivo, l’insonnia febbrile, il passo di corsa, il salto mortale, lo schiaffo ed il pugno.</item>
+		<item n="4">4. Noi affermiamo che la magnificenza del mondo si è arricchita di una bellezza nuova: la bellezza della velocità. Un automobile da corsa col suo cofano adorno di grossi tubi simili a serpenti dall’<emph>alito esplosivo</emph>... un automobile ruggente, che sembra correre sulla mitraglia, è più bello della <emph rendition="#italic">Vittoria di Samotracia</emph>. </item>
+		<item n="5">5. Noi vogliamo inneggiare all’uomo che tiene il volante, la cui asta ideale attraversa la Terra, lanciata a corsa, essa pure, sul circuito della sua orbita.</item>
+		<item n="6">6. Bisogna che il poeta si prodighi, con ardore, sfarzo e munificenza, per aumentare l’entusiastico fervore degli elementi primordiali.</item>
+		<item n="7">7. Non v’è più bellezza, se non nella lotta. Nessuna opera che non abbia un carattere aggressivo può essere un capolavoro. La poesia deve essere concepita come un violento assalto contro le forze ignote, per ridurle a prostrarsi davanti all’uomo.</item>
+		<item n="8">8. Noi siamo sul promontorio estremo dei <emph>secoli</emph>!... Perché dovremmo guardarci alle spalle, se vogliamo
+
+	<pb n="12"/>
+
+		sfondare le misteriose porte dell’<emph>Impossibile</emph>? Il Tempo e lo Spazio morirono ieri. Noi viviamo già nell’assoluto, poiché abbiamo già creata l’eterna velocità onnipresente.</item>
+		<item n="9">9. Noi vogliamo glorificare la guerra – sola igiene del mondo – il militarismo, il patriottismo, il gesto distruttore dei libertari, le belle idee per cui si muore e il disprezzo della donna.</item>
+		<item n="10">10. Noi vogliamo distruggere i musei, le biblioteche, le accademie d’ogni specie, e combattere contro il moralismo, il femminismo e contro ogni viltà opportunistica o utilitaria.</item>
+		<item n="11">11. Noi canteremo le grandi folle agitate dal lavoro, dal piacere o dalla sommossa: canteremo le maree multicolori e polifoniche delle rivoluzioni nelle capitali moderne;  canteremo il vibrante fervore notturno degli
+		arsenali e dei cantieri incendiati da violente lune elettriche; le stazioni ingorde, divoratrici di serpi che fumano; le officine appese alle nuvole pei contorti fili dei loro fumi; i ponti simili a ginnasti giganti che scavalcano i fiumi, balenanti al sole con un luccichio di coltelli; i piroscafi avventurosi che fiutano l’orizzonte, le locomotive dall’ampio petto, che scalpitano sulle
+		rotaie, come enormi cavalli d’acciaio imbrigliati di tubi, e il volo scivolante degli aeroplani, la cui elica garrisce al vento come una bandiera e sembra applaudire come una folla entusiasta.
+		</item>
+	</list>
+	</div>
+
+	<pb n="13"/>
+
+	<div type="section" n="3">
+	<p>È dall’Italia, che noi lanciamo pel mondo questo
+	nostro manifesto di violenza travolgente e incendiaria, col quale fondiamo oggi il <emph rendition="#italic">«Futurismo»</emph>, perché vogliamo liberare questo paese dalla sua fetida cancrena di professori, d’archeologhi, di ciceroni e d’antiquarii.</p>
+	<p>Già per troppo tempo l’Italia è stata un mercato di
+	rigattieri. Noi vogliamo liberarla dagl’innumerevoli
+	musei che la coprono tutta di cimiteri innumerevoli.</p>
+	<p>Musei: <emph>cimiteri</emph>!... Identici, veramente, per la sinistra promiscuità di tanti corpi che non si conoscono. Musei: dormitori pubblici in cui si riposa per sempre accanto ad esseri odiati o <emph>ignoti</emph>! Musei: assurdi macelli di pittori e scultori che vanno trucidandosi ferocemente a colpi di colori e di linee, lungo le <emph>pareti contese</emph>!</p>
+	<p>Che ci si vada in pellegrinaggio, una volta all’anno, come si va al Camposanto nel <emph>giorno dei morti</emph>... ve lo concedo. Che una volta all’anno sia deposto un omaggio di fiori davanti alla <emph rendition="#italic">Gioconda</emph>, <emph>ve lo concedo</emph>... Ma non ammetto che si conducano quotidianamente a passeggio per i musei le nostre tristezze, il nostro fragile coraggio, la nostra morbosa inquietudine. <emph>Perché volersi avvelenare</emph>?<emph> Perché volere imputridire</emph>?</p>
+	<p>E che mai si può vedere, in un vecchio quadro, se non la faticosa contorsione dell’artista, che si sforzò di infrangere le insuperabili barriere opposte al desiderio di esprimere interamente il <emph>suo sogno</emph>?... Ammirare un quadro antico equivale a versare la nostra sensibilità in un’urna funeraria, invece di proiettarla lontano, in violenti getti di creazione e di azione.</p>
+
+	<pb n="14"/>
+	
+	<p>Volete dunque sprecare tutte le vostre forze migliori, in questa eterna ed inutile ammirazione del passato, da cui uscite fatalmente esausti, diminuiti e <emph>calpesti</emph>?</p>
+	<p>In verità io vi dichiaro che la frequentazione
+	quotidiana dei musei, delle biblioteche e delle
+	accademie (cimiteri di sforzi vani, calvarii di sogni
+	crocifissi, registri di <emph>slanci troncati</emph>!...) è, per gli artisti, altrettanto dannosa che la tutela prolungata dei parenti per certi giovani ebbri del loro ingegno e della loro volontà ambiziosa. Per i moribondi, per gl’infermi, pei prigionieri, sia pure – l’ammirabile passato è forse un balsamo ai loro mali, poiché per essi l’avvenire è <emph>sbarrato</emph>... Ma noi non vogliamo più saperne, del passato, noi, giovani e forti <emph rendition="#italic">futuristi</emph>!</p>
+	<p>E vengano dunque, gli allegri incendiarii dalle <emph>dita carbonizzate</emph>! <emph>Eccoli</emph>! <emph>Eccoli</emph>!... <emph>Suvvia</emph>! date fuoco agli scaffali delle <emph>biblioteche</emph>!... Sviate il corso dei canali, per inondare i <emph>musei</emph>!... Oh, la gioia di veder galleggiare alla deriva, lacere e stinte su quelle acque, le <emph>vecchie tele gloriose</emph>!... Impugnate i picconi, le scuri, i martelli e demolite, demolite senza pietà le città venerate!</p>
+	</div>
+	<div type="section" n="4">
+	<p>I più anziani fra noi, hanno trent’anni: ci rimane
+	dunque almeno un decennio, per compier l’opera nostra.
+	Quando avremo quarant’anni, altri uomini più giovani e
+	più validi di noi, ci gettino pure nel cestino, come
+	manoscritti inutili. – <emph>Noi lo desideriamo</emph>!</p>
+	<p>Verranno contro di noi, i nostri successori; verranno di lontano, da ogni parte, danzando su la cadenza alata</p>
+
+	<pb n="15"/>
+
+	<p>dei loro primi canti, protendendo dita adunche di
+	predatori, e fiutando caninamente, alle porte delle
+	accademie, il buon odore delle nostre menti in
+	putrefazione, già promesse alle catacombe delle
+	biblioteche.</p>
+	<p>Ma noi non saremo <emph>là</emph>... Essi ci troveranno alfine –
+	una notte d’inverno – in aperta campagna, sotto una
+	triste tettoia tamburellata da una pioggia monotona, e ci vedranno accoccolati accanto ai nostri aeroplani
+	trepidanti e nell’atto di scaldarci le mani al fuocherello meschino che daranno i nostri libri d’oggi fiammeggiando sotto il volo delle nostre immagini.</p>
+	<p>Essi tumultueranno intorno a noi, ansando per
+	angoscia e per dispetto, e tutti, esasperati dal nostro superbo, instancabile ardire, si avventeranno per ucciderci, spinti da un odio tanto più implacabile
+	inquantoché i loro cuori saranno ebbri di amore e di
+	ammirazione per noi.</p>
+	<p>La forte e sana Ingiustizia scoppierà radiosa nei loro occhi. – L’arte, infatti, non può essere che violenza, crudeltà ed ingiustizia.</p>
+	<p>I più anziani fra noi hanno trent’anni: eppure, noi
+	abbiamo già sperperati tesori, mille tesori di forza, di amore, d’audacia, d’astuzia e di rude volontà; li
+	abbiamo gettati via impazientemente, in furia, senza
+	contare, senza mai esitare, senza riposarci mai,<emph> a
+	perdifiato</emph>... <emph>Guardateci</emph>! Non siamo ancora <emph>spossati</emph>! I
+	nostri cuori non sentono alcuna stanchezza, poiché sono nutriti di fuoco, di odio e di <emph>velocità</emph>!... <emph>Ve ne stupite</emph>?...</p>
+	
+	<pb n="16"/>
+	
+	<p>È logico, poiché voi non vi ricordate nemmeno di <emph>aver vissuto</emph>! Ritti sulla cima del mondo, noi scagliamo una volta ancora, la nostra sfida alle <emph>stelle</emph>!</p>
+	<p>Ci opponete delle <emph>obiezioni</emph>?... <emph>Basta</emph>! <emph>Basta</emph>! <emph>Le
+	conosciamo</emph>... <emph>Abbiamo capito</emph>!... La nostra bella e
+	mendace intelligenza ci afferma che noi siamo il
+	riassunto e il prolungamento degli avi nostri. – <emph>Forse</emph>!... <emph>Sia pure</emph>!... <emph>Ma che importa</emph>? <emph>Non vogliamo intendere</emph>!... Guai a chi ci ripeterà queste <emph>parole infami</emph>!...</p>
+	<lg type="free">
+	<l>Alzate la <emph>testa</emph>!...</l>
+	<l>Ritti sulla cima del mondo, noi scagliamo, una volta ancora, la nostra sfida alle <emph>stelle</emph>!...</l>
+	</lg>
+	</div>
+
+	
+	<pb n="17"/>
+	
+	</body>
+</text>
+</TEI>
+
